@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         borschik: {
             js: {
                 src: ['src/index.js'],
-                dest: ['dist/index.js'],
+                dest: "dist/index.js",
                 tech: 'js',
                 options: {
                     minimize: grunt.option('target') !== 'dev'
