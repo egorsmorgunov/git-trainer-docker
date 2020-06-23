@@ -3,6 +3,8 @@
 
 Default setup [git-init.herzen.spb.ru](https://git-init.herzen.spb.ru)
 
+Yandex Frontend Academy Presentation [youtube.com](https://www.youtube.com/watch?v=yDSs80lu3ak)
+
 Commands supported:
 
 ````
