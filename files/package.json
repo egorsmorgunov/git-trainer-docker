@@ -4,25 +4,22 @@
     "description": "Simple visualiation tool for teaching git",
     "repository": {
         "type": "git",
-        "url": "git://github.com/gurugray/git-trainer.git"
-    },
+        "url": "git://github.com/esmorgunov/git-trainer-docker.git"
+	},
     "devDependencies": {
-        "bower": ">=1.8.8",
-        "grunt": "^1.1.0",
-        "grunt-borschik": "^1.0.0",
+		"bower": "1.8.8",
+        "grunt": "1.1.0",
+        "grunt-borschik": "1.0.0",
         "grunt-bower-task": "0.3.4",
-        "grunt-cli": "^1.3.2",
+        "grunt-cli": "1.3.2",
         "grunt-contrib-htmlmin": "0.1.2",
-        "grunt-contrib-jshint": "^2.1.0",
-        "grunt-contrib-watch": "^1.1.0",
+        "grunt-contrib-jshint": "2.1.0",
+        "grunt-contrib-watch": "1.1.0",
         "grunt-csso": "0.5.3",
         "grunt-jscs": "3.0.1"
     },
     "private": true,
     "scripts": {
         "postinstall": "./node_modules/.bin/grunt"
-    },
-	"dependencies": {
-		"grunt-jscs-checker": "^0.8.1"
-	}	
+    }
 }

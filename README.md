@@ -10,9 +10,10 @@ Commands supported:
 ````
 git add
 git commit
+git add && git commit  | alias git ci
 
-git branch BRANCH_NAME
-git checkout -b BRANCH_NAME
+git branch BRANCH_NAME  | alias git b
+git checkout -b BRANCH_NAME  | alias git co
 git checkout BRANCH_NAME
 
 git merge BRANCH_NAME
@@ -33,9 +34,9 @@ Start docker container
 ```
 docker run -it --name gittrainer -p 8080:8080 itherz/git-trainer-docker
 ```
-or
+or spot mount
 ```
-docker run -it --name gittrainer -p 8080:8080 -v "/home/esmorgunov/src:/home/bower/src" itherz/git-trainer-docker
+docker run -it --name gittrainer -p 8080:8080 -v "/www/git-trainer-docker/files/src:/home/bower/src" -v "/www/git-trainer-docker/files/Gruntfile.js:/home/bower/Gruntfile.js" zloystrelok/git-trainer-docker
 ```
 #### Compile code
 ```

@@ -23,7 +23,7 @@ module.exports = function(grunt) {
                     layout: function() {
                         // by default it creates folder with component name
                         // and folder 'js' in component folder
-                        // we just change this behaviour
+                        // we just change this behaviour 2
                         return '';
                     }
                 }
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-jscs-checker');
+    grunt.loadNpmTasks('grunt-jscs');
     grunt.loadNpmTasks('grunt-bower-task');
     grunt.loadNpmTasks('grunt-borschik');
     grunt.loadNpmTasks('grunt-csso');
