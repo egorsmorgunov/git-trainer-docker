@@ -32,7 +32,7 @@ git revert HASH  #just for demo
 Start docker container
 
 ```
-docker run -it --name gittrainer -p 8080:8080 itherz/git-trainer-docker
+docker run -it --name gittrainer -p 8080:8080 zloystrelok/git-trainer-docker
 ```
 or spot mount
 ```

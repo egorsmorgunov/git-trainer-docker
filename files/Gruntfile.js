@@ -23,7 +23,7 @@ module.exports = function(grunt) {
                     layout: function() {
                         // by default it creates folder with component name
                         // and folder 'js' in component folder
-                        // we just change this behaviour 2
+                        // we just change this behaviour
                         return '';
                     }
                 }
